@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 kmeans = joblib.load("kmeans_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
-data = pd.read_csv("customers_clustered.csv") 
+data = pd.read_csv("data/customers_clustered.csv") 
 
 st.title("Customer Segmentation App")
 st.write("Enter customer details to predict their segment:")
